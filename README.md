@@ -1,2 +1,4 @@
 # HTDF
-Handwritten To Digitalized Files (Machine Learning Project) 
+Handwritten To Digitalized Files (Machine Learning Project)
+
+Authors: Armando Cabrera & Jaime Andrade
