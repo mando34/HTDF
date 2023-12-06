@@ -12,25 +12,41 @@
         <div class="header_container">
             <div class="background bg-dark p-3 text-white">
                 <div class="title_container m-auto text-center">
-                    <h1>Handwriting To Digital Files</h1>
+                    <h1>Handwriting To Text Output</h1>
                 </div>
             </div>
         </div>
         <div class="main">
             <div class="form_title_container mb-4">
                 <div class="form_title w-50 m-auto text-center">
-                    <h2>Please Upload Your Notes</h2>
+                    <h2>Please Upload Your Image</h2>
                 </div>
             </div>
             <div class="form_container w-50 m-auto text-center">
-                <form action="/" id="uploadFile" method="POST" enctype="multipart/form-data">
+                <form id="uploadForm" enctype="multipart/form-data">
                     <div class="input-group mb-3">
-                        <input type="file" class="form-control" id="fileInput">
+                        <input type="file" class="form-control" name = 'file' id="fileInput">
                     </div>
                     <div class="upload_bttn_container d-grid gap-2 mt-5">
                         <button class="btn btn-primary w-50 m-auto fs-5" type="button" id="uploadBttn">Upload</button>
                       </div>
                 </form>
+            </div>
+
+            <div class="error_msg d-none text-center mt-5">
+                <h2>Please Upload an Image!</h2>
+            </div>
+
+            <div class="input_output_container row">
+                <div class="input_section col-6 text-center">
+                    <h3 class="">Input</h3>
+                    <img id="uploadedImage" src="" alt="" class="uploaded_img">
+                </div>
+                <div class="output_section col-6 text-center">
+                    <h3 class="">Output</h3>
+                    <!-- <img id="outputtedImage" src="" alt="" class="output_img"> -->
+                    <div class="result"></div>
+                </div>
             </div>
         </div>
     </body>
