@@ -4,8 +4,41 @@ body,html{
     width: 100%;
     height: 100%;
     font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    
 }
 
 .form_title_container{
-    margin-top: 15%;
+    margin-top: 7%;
+}
+
+.input_output_container{
+    width: 100%;
+    height: 50%;
+    margin: 5% auto;
+    padding: 0%;
+}
+.input_section{
+    width: 30%;
+    float: left;
+    height: 42vh;
+    margin-left: 10%;
+}
+.uploaded_img{
+    width: 100%;
+    height: 100%;
+}
+
+.output_section{
+    width: 30%;
+    float: right;
+    height: 42vh;
+    margin-right: 10%;
+}
+.output_img{
+    width: 100%;
+    height: 100%;
+}
+.outputText{
+    margin-top: 10%;
 }
