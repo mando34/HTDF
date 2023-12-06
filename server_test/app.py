@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model outside the route to avoid reloading it for each request
-model = tf.keras.models.load_model("handwritten_character_model_enhanced.h5")
+model = tf.keras.models.load_model("models/handwritten_character_model_enhanced.h5")
 # model = tf.keras.models.load_model("handwritten_text_recognition_rnn_letters_model.h5")
 
 def preprocess_image(file):
