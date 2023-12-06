@@ -1,4 +1,4 @@
-# HTDF
-Handwritten To Digitalized Files (Machine Learning Project)
+# HTTO
+Handwritten To Text Output (Machine Learning Project)
 
 Authors: Armando Cabrera & Jaime Andrade
